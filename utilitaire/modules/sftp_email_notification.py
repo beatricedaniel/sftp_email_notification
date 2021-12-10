@@ -31,7 +31,7 @@ def send_email(smtp_exp, smtp_dest, smtp_subject, smtp_message, smtp_server, smt
     mailserver.ehlo()
     mailserver.starttls()
     mailserver.ehlo()
-    mailserver.login(smtp_username, smtp_password)
+    mailserver.login(smtp_exp, smtp_password)
     mailserver.sendmail(smtp_exp, smtp_dest, msg.as_string())
     mailserver.quit()
     return

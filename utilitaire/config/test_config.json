@@ -1,0 +1,29 @@
+{
+	"sftp_lecture":
+	[
+		{
+			"username":"*****",
+			"password":"*****",
+			"sftp_host":"www.*****.fr"
+		}
+	],
+	"sftp_ecriture":
+	[
+		{
+			"username":"*****",
+            "password":"*****",
+            "sftp_host":"www.*****.fr"
+		}
+	],
+	"smtp":
+	[
+		{
+			"username":"*****",
+			"password":"*****",
+			"server":"*****",
+			"port":123,
+			"from":"*****",
+			"to":"*****"
+		}
+	]
+}
